@@ -170,6 +170,7 @@
         }
         /* Specific brand colors on hover */
         .fa-youtube:hover { color: #FF0000; text-shadow: 0 0 15px #FF0000; }
+        .fa-discord:hover { color: #5865F2; text-shadow: 0 0 15px #5865F2; }
         .fa-gamepad:hover { color: #00ff00; text-shadow: 0 0 15px #00ff00; }
 
         /* UTILITIES & ANIMATIONS */
@@ -178,9 +179,8 @@
 
         @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
         
-        /* (Shortened glitch keyframes for brevity - same as previous) */
         @keyframes glitch-anim {
-            0% { clip: rect(31px, 9999px, 94px, 0); transform: skew(0.85deg); }
+            0% { clip: rect(31px, 9999px, 94px, 0); transform: dummy skew(0.85deg); }
             20% { clip: rect(61px, 9999px, 3px, 0); transform: skew(0.53deg); }
             40% { clip: rect(53px, 9999px, 83px, 0); transform: skew(0.24deg); }
             60% { clip: rect(22px, 9999px, 4px, 0); transform: skew(0.68deg); }
@@ -228,6 +228,10 @@
         <div class="socials">
             <a href="https://www.youtube.com/@smallnutswastaken" target="_blank" class="social-btn">
                 <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="https://discord.gg/9VqvYHnEyT" target="_blank" class="social-btn">
+                <i class="fab fa-discord"></i>
             </a>
             
             <a href="https://www.roblox.com/users/3203622463/profile" target="_blank" class="social-btn">
